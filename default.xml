@@ -12,7 +12,8 @@
   <remote name="origin" fetch="git@github.com:edgexfoundry" />
   
   <default revision="master" remote="origin"
-	   sync-j="4" sync-c="true" />
+	   sync-c="true" />
+<!--	   sync-j="4" sync-c="true" /> -->  
 
   <project path="developer-scripts" name="developer-scripts.git" />
   <project path="core-domain" name="core-domain.git" />
