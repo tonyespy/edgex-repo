@@ -9,7 +9,7 @@
        
        <remote name="origin" fetch=".." /> -->
 
-  <remote name="origin" fetch="git@github.com:edgexfoundry" />
+  <remote name="origin" fetch="git://github.com:edgexfoundry" />
   
   <default revision="master" remote="origin"
 	   sync-c="true" />
