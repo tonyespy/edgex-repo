@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- TODO: once default.xml has been hosted in it's
+       own repository at EdgeX, we can change the remote
+       to the following, which then causes repo to generate
+       the Git URL prefix by using the server the manifest
+       was pulled from.
+       
+       <remote name="origin" fetch=".." /> -->
+
+  <remote name="origin" fetch="git@github.com:edgexfoundry/" />
+  
+  <default revision="master" remote="origin"
+	   sync-j="4" sync-c="true" />
+
+  <project path="developer-scripts" name="developer-scripts.git" />
+  <project path="core-domain" name="core-domain.git" />
+  <project path="core-test" name="core-test.git" />
+  <project path="core-exception" name="core-exception.git" />
+  <project path="support-domain" name="support-domain.git" />
+  <project path="support-logging" name="support-logging.git" />
+  <project path="support-logging-client" name="support-logging-client.git" />
+  <project path="support-notifications" name="support-notifications.git" />  
+  <project path="support-notifications-client" name="support-notifications-client.git" />
+  <project path="core-metadata" name="core-metadata.git" />
+  <project path="core-metadata-client" name="core-metadata-client.git" />
+  <project path="core-data" name="core-data.git" />
+  <project path="core-data-client" name="core-data-client.git" />
+  <project path="core-command" name="core-command.git" />
+  <project path="core-command-client" name="core-command-client.git" />
+  <project path="device-virtual" name="device-virtual.git" />
+  
+</manifest>  
